@@ -1,8 +1,15 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  position: absolute;
+  @media (max-width: 1000px) {
+    top: -130px;
+  }
+  top: -70px;
+  left: 0;
+  right: 0;
   max-width: 1200px;
-  margin: 12% auto 0 auto;
+  margin: 0 auto 0 auto;
   background-color: var(--secundary);
   border-radius: 20px;
   padding: 3% 5%;
