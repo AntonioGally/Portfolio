@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from "../../img/material/Avatar.png";
-import bottomImage from "../../img/material/bottomImage.jpeg";
+import bottomImage from "../../img/material/bottomImage.png";
 import {
   TitleContent,
   Title,
