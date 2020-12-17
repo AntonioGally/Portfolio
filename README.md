@@ -1,46 +1,106 @@
-# Getting Started with Create React App
+<p align="center">
+  <a href="https://github.com/AntonioGally/Portfolio">
+    <img src="src/img/logo/logoWhite.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">AG Portfolio</h3>
 
-## Available Scripts
+  <p align="center">
+   My personal portfolio, made with the objective of promoting my work in the development area.
+    <br />
+    <a href="https://github.com/AntonioGally/Portfolio"><strong> Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="">View Demo</a>
+    ·
+    <a href="https://github.com/AntonioGally/Portfolio/issues">Report Bug</a>
+    ·
+  </p>
+</p>
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+## Table of Contents
 
-### `yarn start`
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Contributing](#contributing)
+- [Contact](#contact)
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="src/img/prints/print.jpeg" alt="Print About Page"><br/>
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I made this portfolio because I needed a platform to post my future projects, I know there is GitHub, but this platform is more devoted to Devs. As for the portfolio design, I was inspired by several on the internet, and I did mine with some changes.
 
-### `yarn build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Here is a list of the Frameworks and libraries that I used in the project
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://pt-br.reactjs.org)
+- [Material-UI](https://material-ui.com/pt/)
+- [React-Bootstrap](https://react-bootstrap.github.io)
+- [Bootstrap](https://getbootstrap.com)
+- [React-Hook-Form](https://react-hook-form.com)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the application locally on your machine, I recommend the VS Code editor. I leave here a list of prerequisites that are necessary for the execution of the project:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- <a href="https://git-scm.com/downloads">Git Bash</a>
+- <a href="https://nodejs.org/en/download/">Node js</a>
+- <a href="https://classic.yarnpkg.com/en/docs/install/#windows-stable">Yarn</a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/AntonioGally/Portfolio.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. Open the cloned folder in Vs Code
+
+```sh
+code ./Portfolio
+```
+
+3. Install project dependencies
+
+```sh
+yarn install
+```
+
+4. Initialize the project
+
+```sh
+yarn start
+```
+
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are what make the open source community an incredible place to learn, inspire and create. Any contributions you make will be ** highly appreciated **.
+
+1. Fork the project
+2. Create your branch with new functionality (`git checkout -b feature/MyFunction`)
+3. Commit yout changes (`git commit -m 'adding my functions'`)
+4. Upload to your branch (`git push origin feature/MinhaFuncionalidade`)
+5. Open a Pull Request
+
+<!-- CONTACT -->
+
+## Contact
+
+Antônio Lima Gally Neto - antonio.gally@gmail.com
+
+Link of the project: [here](https://github.com/AntonioGally/Portfolio)
