@@ -32,8 +32,9 @@
 
 ## About The Project
 
-<img src="src/img/prints/print.jpeg" alt="Print About Page"><br/>
-
+<p align="center">
+    <img src="src/img/prints/print.jpeg" alt="Print About Page"><br/>
+</p>
 
 I made this portfolio because I needed a platform to post my future projects, I know there is GitHub, but this platform is more devoted to Devs. As for the portfolio design, I was inspired by several on the internet, and I did mine with some changes.
 
