@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction";
 import Transition from "./components/Transition";
 import ContainerHabilities from "./components/ContainerHabilities";
 import ContainerProjects from "./components/ContainerProjects";
+import ContainerFooter from "./components/ContainerFooter";
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <Transition />
       <ContainerHabilities />
       <ContainerProjects />
+      <ContainerFooter />
     </div>
   );
 }
