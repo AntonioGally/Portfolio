@@ -8,10 +8,11 @@ const Transition: React.FC = () => {
       <TextContent>
         <Title>Hi, i'm Antônio. Nice to meet you {":)"}</Title>
         <Text>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled.
+          My name is Antônio Gally, I am a beginner in the field, but ambitious.
+          I carried out several projects in several languages, one of which was
+          project of completion of course, my technical course. I am daily
+          working on WEB applications, and I am doing the transition to Mobile
+          as well.
         </Text>
       </TextContent>
     </Container>
