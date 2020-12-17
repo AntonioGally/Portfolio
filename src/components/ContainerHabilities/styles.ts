@@ -10,7 +10,7 @@ export const Container = styled.div`
 
 export const DesktopVersion = styled.div`
   display: unset;
-  @media (max-width: 768px) {
+  @media (max-width: 980px) {
     display: none;
   }
 `;
@@ -46,6 +46,9 @@ export const TextHeader = styled.div`
   font-size: 18px;
   margin: 4% auto 0 auto;
   max-width: 55%;
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
 `;
 export const Middle = styled.div`
   margin-top: 12%;
@@ -85,4 +88,10 @@ export const TextEnd = styled.div`
   font-weight: normal;
   font-size: 16px;
   color: var(--fontBlack);
+`;
+export const CellPhoneVersion = styled.div`
+  display: none;
+  @media (max-width: 980px) {
+    display: unset;
+  }
 `;

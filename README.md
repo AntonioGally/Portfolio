@@ -44,6 +44,7 @@ Here is a list of the Frameworks and libraries that I used in the project
 
 - [React](https://pt-br.reactjs.org)
 - [Material-UI](https://material-ui.com/pt/)
+- [Elastic Carousel](https://github.com/sag1v/react-elastic-carousel)
 - [React-Bootstrap](https://react-bootstrap.github.io)
 - [Bootstrap](https://getbootstrap.com)
 - [React-Hook-Form](https://react-hook-form.com)
