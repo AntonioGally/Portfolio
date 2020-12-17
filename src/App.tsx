@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Transition from "./components/Transition";
 import ContainerHabilities from "./components/ContainerHabilities";
+import ContainerProjects from "./components/ContainerProjects";
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <Introduction />
       <Transition />
       <ContainerHabilities />
+      <ContainerProjects />
     </div>
   );
 }

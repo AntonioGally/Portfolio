@@ -109,7 +109,9 @@ sup {
 sub {
   bottom: -0.25em;
 }
-
+&.rec-slider-container {
+  border-radius:20px;
+}
 sup {
   top: -0.5em;
 }

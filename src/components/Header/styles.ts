@@ -17,10 +17,13 @@ export const Logo = styled.img`
 export const Button = styled.div`
   background-color: transparent;
   border: 2px solid var(--primary);
-  color: var(--primary);
+  > a {
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 20px;
+  }
   cursor: pointer;
   border-radius: 22px;
-  font-size: 20px;
   font-family: "Be Vietnam";
   width: 100px;
   height: 30px;
@@ -29,8 +32,8 @@ export const Button = styled.div`
   justify-content: center;
   padding: 2px 15px 5px 15px;
   :hover {
-      background-color:var(--primary);
-      color:var(--fontWhite);
-      transition:all 0.2s ease-out;
+    background-color: var(--primary);
+    color: var(--fontWhite);
+    transition: all 0.2s ease-out;
   }
 `;

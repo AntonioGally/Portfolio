@@ -2,9 +2,9 @@ import styled, { css } from "styled-components";
 export const Container = styled.div`
   margin: -5% auto 0 auto;
   max-width: 1200px;
-  padding: 50px 5% 50px 5%;
+  padding: 50px 5% 10% 5%;
   border-radius: 20px;
-  border: 0.1px solid #000000;
+  border: 0.1px solid rgba(0, 0, 0, 0.3);
   background-color: var(--background);
 `;
 

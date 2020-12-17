@@ -7,7 +7,9 @@ const Header: React.FC = () => {
     <>
       <MyRow>
         <Logo src={logo} alt="My Logo" />
-        <Button>Say Hello</Button>
+        <Button>
+          <a href="mailto:antonio.gally@gmail.com">Say Hello</a>
+        </Button>
       </MyRow>
     </>
   );
