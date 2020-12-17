@@ -36,7 +36,7 @@
     <img src="src/img/prints/print.jpeg" alt="Print About Page"><br/>
 </p>
 
-I made this portfolio because I needed a platform to post my future projects, I know there is GitHub, but this platform is more devoted to Devs. As for the portfolio design, I was inspired by several on the internet, and I did mine with some changes.
+I made this portfolio because I needed a platform to post my future projects, I know there is GitHub, but this platform is more devoted to Devs. As for the portfolio design, I was inspired by several on the internet, and I did mine with some changes. Here's the Figma <a href="https://www.figma.com/file/A31slvk6McW5ySJAdCmeB2/MyPortifolio?node-id=0%3A1" target="_blank">link</a>
 
 ### Built With
 
@@ -45,9 +45,7 @@ Here is a list of the Frameworks and libraries that I used in the project
 - [React](https://pt-br.reactjs.org)
 - [Material-UI](https://material-ui.com/pt/)
 - [Elastic Carousel](https://github.com/sag1v/react-elastic-carousel)
-- [React-Bootstrap](https://react-bootstrap.github.io)
-- [Bootstrap](https://getbootstrap.com)
-- [React-Hook-Form](https://react-hook-form.com)
+- [Styled Components](https://styled-components.com)
 
 <!-- GETTING STARTED -->
 
