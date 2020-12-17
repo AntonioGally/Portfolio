@@ -15,6 +15,9 @@ export const Title = styled.div`
   font-size: 53px;
   margin-bottom: 2%;
   color: var(--fontBlack);
+  @media (max-width: 768px) {
+    font-size: 46px;
+  }
 `;
 export const SubTitle = styled.div`
   font-family: "Be Vietnam";
@@ -32,6 +35,10 @@ export const AvatarContent = styled.div`
 export const AvatarIcon = styled.img`
   width: 450px;
   height: 251px;
+  @media (max-width: 768px) {
+    width: 350px;
+    height: 201px;
+  }
   flex-shrink: 0;
 `;
 export const BottomImageContent = styled.div`
@@ -43,4 +50,8 @@ export const BottomImageContent = styled.div`
 export const BottonImage = styled.img`
   width: 650px;
   height: 265px;
+  @media (max-width: 768px) {
+    width: 340px;
+    height: 165px;
+  }
 `;
