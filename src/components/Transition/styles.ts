@@ -2,7 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 400px;
+  height: 450px;
+  @media (max-width: 768px) {
+    height: 400px;
+  }
   background-color: var(--primary);
   display: flex;
   flex-direction: column;
@@ -10,7 +13,7 @@ export const Container = styled.div`
 `;
 export const TextContent = styled.div`
   margin-top: 3.5%;
-  @media (max-width:768px) {
+  @media (max-width: 768px) {
     margin-top: 10%;
   }
 `;
