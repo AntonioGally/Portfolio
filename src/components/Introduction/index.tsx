@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "styled-components";
 import Avatar from "../../img/material/Avatar.png";
 import bottomImage from "../../img/material/bottomImage.png";
+import bottomImageWhite from "../../img/material/bottomImageWhite.png";
 import {
   TitleContent,
   Title,
@@ -12,6 +14,7 @@ import {
 } from "./styles";
 
 const Introduction: React.FC = () => {
+  const { title } = useContext(ThemeContext);
   return (
     <>
       <TitleContent>
@@ -24,7 +27,10 @@ const Introduction: React.FC = () => {
         <AvatarIcon src={Avatar} alt="My Avatar Face" />
       </AvatarContent>
       <BottomImageContent>
-        <BottonImage src={bottomImage} alt="Bottom Image" />
+        <BottonImage
+          src={title === "dark" ? bottomImageWhite : bottomImage}
+          alt="Bottom Image"
+        />
       </BottomImageContent>
     </>
   );

@@ -14,7 +14,7 @@ export const Title = styled.div`
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
-  color: var(--fontBlack);
+  color: ${(props) => props.theme.colors.fontPrimary};
   margin-bottom: 2%;
 `;
 export const SubTitle = styled.div`
@@ -22,9 +22,9 @@ export const SubTitle = styled.div`
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
-  color: var(--fontBlack);
+  color: ${(props) => props.theme.colors.fontPrimary};
   > span > a {
-    color: var(--primary);
+    color: ${(props) => props.theme.colors.fontSecundary};
     cursor: pointer;
     text-decoration: none;
   }
