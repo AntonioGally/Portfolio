@@ -122,7 +122,12 @@ const ContainerHabilities: React.FC = () => {
         </Grid>
       </DesktopVersion>
       <CellPhoneVersion>
-        <Carousel itemsToShow={1} disableArrowsOnEnd={false}>
+        <Carousel
+          itemsToShow={1}
+          disableArrowsOnEnd={false}
+          enableSwipe={true}
+          showArrows={false}
+        >
           <ContentCol>
             <Header>
               <IconContainer src={frontendIcon} alt="IconContainer" />
