@@ -14,7 +14,7 @@ export const Title = styled.div`
   font-weight: 500;
   font-size: 53px;
   margin-bottom: 2%;
-  color: var(--fontBlack);
+  color: ${(props) => props.theme.colors.fontPrimary};
   @media (max-width: 768px) {
     font-size: 46px;
   }
@@ -24,7 +24,7 @@ export const SubTitle = styled.div`
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
-  color: var(--fontBlack);
+  color: ${(props) => props.theme.colors.fontPrimary};
 `;
 export const AvatarContent = styled.div`
   width: 100%;

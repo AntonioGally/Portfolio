@@ -15,6 +15,7 @@ export const Logo = styled.img`
   cursor: pointer;
 `;
 export const Button = styled.div`
+  margin-left: 10px;
   background-color: transparent;
   border: 2px solid var(--primary);
   > a {
