@@ -1,0 +1,17 @@
+@media (min-width: 769px) {
+  .Desktop {
+    display: unset;
+  }
+  .CellPhone {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .Desktop {
+    display: none;
+  }
+  .CellPhone {
+    display: unset;
+  }
+}
