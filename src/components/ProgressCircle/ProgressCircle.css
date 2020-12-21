@@ -1,0 +1,16 @@
+.progress-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: 120px;
+  z-index: 100;
+}
+@media (max-width: 600px) {
+  .progress-icon {
+    width: 70px;
+    height: 70px;
+    left: 10px;
+    top: 10px;
+  }
+}

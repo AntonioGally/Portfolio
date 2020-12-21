@@ -1,9 +1,10 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 
-import quemVai from "../../img/material/quemVai.jpg";
-import gitHub from "../../img/material/gitHub.jpg";
-import tui from "../../img/material/tui.jpg";
+import QuemVai from "../../img/material/QuemVai.png";
+import git from "../../img/material/git.png";
+import tui from "../../img/material/tui.png";
+import zap from "../../img/material/zap.png";
 
 import {
   Container,
@@ -57,14 +58,14 @@ const ContainerProjects: React.FC = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <ImageProject src={quemVai} alt="ImageProject" />
+            <ImageProject src={QuemVai} alt="ImageProject" />
           </a>
           <a
             href="https://github.com/AntonioGally/Clone-Github"
             target="_blank"
             rel="noreferrer"
           >
-            <ImageProject src={gitHub} alt="ImageProject" />
+            <ImageProject src={git} alt="ImageProject" />
           </a>
           <a
             href="https://github.com/AntonioGally/Clone-Tweeter"
@@ -72,6 +73,13 @@ const ContainerProjects: React.FC = () => {
             rel="noreferrer"
           >
             <ImageProject src={tui} alt="ImageProject" />
+          </a>
+          <a
+            href="https://github.com/AntonioGally/CloneWhatsapp"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <ImageProject src={zap} alt="ImageProject" />
           </a>
         </Carousel>
         {/* <Grid container spacing={3}>

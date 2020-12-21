@@ -34,7 +34,9 @@ export const Button = styled.div`
   padding: 2px 15px 5px 15px;
   :hover {
     background-color: var(--primary);
-    color: var(--fontWhite);
     transition: all 0.2s ease-out;
+    > a {
+      color: var(--fontWhite);
+    }
   }
 `;

@@ -46,6 +46,7 @@ Here is a list of the Frameworks and libraries that I used in the project
 - [Material-UI](https://material-ui.com/pt/)
 - [Elastic Carousel](https://github.com/sag1v/react-elastic-carousel)
 - [Styled Components](https://styled-components.com)
+- [Framer Motion](https://www.framer.com/motion/)
 
 <!-- GETTING STARTED -->
 
@@ -92,9 +93,9 @@ yarn start
 Contributions are what make the open source community an incredible place to learn, inspire and create. Any contributions you make will be ** highly appreciated **.
 
 1. Fork the project
-2. Create your branch with new functionality (`git checkout -b feature/MyFunction`)
+2. Create your branch with new functionality (`git checkout -b feature-MyFunction`)
 3. Commit yout changes (`git commit -m 'adding my functions'`)
-4. Upload to your branch (`git push origin feature/MinhaFuncionalidade`)
+4. Upload to your branch (`git push origin feature-MyFunction`)
 5. Open a Pull Request
 
 <!-- CONTACT -->
