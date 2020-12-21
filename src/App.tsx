@@ -3,12 +3,14 @@ import { ThemeProvider } from "styled-components";
 import light from "./styles/themes/light";
 import dark from "./styles/themes/dark";
 import GlobalStyles from "./styles/GlobalStyles";
+import ProgressCircle from "./components/ProgressCircle";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import Transition from "./components/Transition";
 import ContainerHabilities from "./components/ContainerHabilities";
 import ContainerProjects from "./components/ContainerProjects";
 import Footer from "./components/Footer";
+
 function App() {
   const [theme, setTheme] = useState(light);
 
@@ -17,9 +19,10 @@ function App() {
   };
   return (
     <ThemeProvider theme={theme}>
-      <div>
+      <div style={{ overflowX: "hidden" }}>
         <GlobalStyles />
-        <Header toggleTheme={toggleTheme}/>
+        <ProgressCircle />
+        <Header toggleTheme={toggleTheme} />
         <Introduction />
         <Transition />
         <ContainerHabilities />
