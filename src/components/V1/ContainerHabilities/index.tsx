@@ -2,9 +2,9 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Carousel from "react-elastic-carousel";
 import "./ContainerHabilites.css";
-import frontendIcon from "../../img/icons/frontendIcon.svg";
-import backendIcon from "../../img/icons/backendIcon.jpeg";
-import studentIcon from "../../img/icons/studentIcon.svg";
+import frontendIcon from "../../../img/icons/frontendIcon.svg";
+import backendIcon from "../../../img/icons/backendIcon.jpeg";
+import studentIcon from "../../../img/icons/studentIcon.svg";
 import { motion } from "framer-motion";
 import {
   Container,

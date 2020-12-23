@@ -1,9 +1,9 @@
 import React from "react";
 import ContainerFooter from "../ContainerFooter";
-import logoWhite from "../../img/logo/logoWhite.png";
-import gitHub from "../../img/icons/gitHub.png";
-import linkedin from "../../img/icons/linkedin.svg";
-import email from "../../img/icons/email.svg";
+import logoWhite from "../../../img/logo/logoWhite.png";
+import gitHub from "../../../img/icons/gitHub.png";
+import linkedin from "../../../img/icons/linkedin.svg";
+import email from "../../../img/icons/email.svg";
 import {
   Container,
   InformationContent,

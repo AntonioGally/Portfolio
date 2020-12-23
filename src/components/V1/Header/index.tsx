@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "styled-components";
-import logo from "../../img/logo/logo.png";
-import logoWhite from "../../img/logo/logoWhite.png";
+import logo from "../../../img/logo/logo.png";
+import logoWhite from "../../../img/logo/logoWhite.png";
 import FormGroup from "@material-ui/core/FormGroup";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
 import Switch from "@material-ui/core/Switch";

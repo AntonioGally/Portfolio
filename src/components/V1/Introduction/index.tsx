@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "styled-components";
-import Avatar from "../../img/material/Avatar.png";
-import bottomImage from "../../img/material/bottomImage.png";
-import bottomImageWhite from "../../img/material/bottomImageWhite.png";
+import Avatar from "../../../img/material/Avatar.png";
+import bottomImage from "../../../img/material/bottomImage.png";
+import bottomImageWhite from "../../../img/material/bottomImageWhite.png";
 import {
   TitleContent,
   Title,

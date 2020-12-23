@@ -313,7 +313,6 @@ template {
 }
 
 :root{
-  /* paleta de cores light */
 --primary : #7510F7;
 --secundary : #141C3A;
 --background : #fff;
