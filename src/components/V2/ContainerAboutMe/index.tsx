@@ -30,8 +30,20 @@ const ContainerAboutMe: React.FC = () => {
             </div>
           </Text>
           <IconsContent>
-            <LinkedinIcon />
-            <GithubIcon />
+            <a
+              href="https://www.linkedin.com/in/antônio-gally-089bab180/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedinIcon />
+            </a>
+            <a
+              href="https://github.com/AntonioGally"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GithubIcon />
+            </a>
           </IconsContent>
         </div>
       </TextContent>
