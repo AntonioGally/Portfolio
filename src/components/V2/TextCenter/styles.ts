@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 10%;
+  margin-top: 15%;
   width: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
   @media (max-width: 768px) {
-    margin-top: 30%;
+    margin-top: 40%;
   }
   > div > span {
     font-family: "Sora";
@@ -28,5 +28,14 @@ export const Container = styled.div`
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+  }
+`;
+
+export const SvgContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+  @media (max-width: 768px) {
+    margin-top: 30%;
   }
 `;

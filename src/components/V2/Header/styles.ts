@@ -19,7 +19,7 @@ export const Container = styled.div`
     font-weight: bold;
     font-size: 32px;
     color: var(--fontPrimary);
-    margin-left: 10%;
+    margin-left: 13%;
     @media (max-width: 768px) {
       font-size: 24px;
       margin-left: 0;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 16px;
     color: var(--fontPrimary);
-    margin-right: 10%;
+    margin-right: 13%;
     cursor: pointer;
     @media (max-width: 768px) {
       display: none;
