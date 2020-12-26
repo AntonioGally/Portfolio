@@ -21,12 +21,12 @@ const ContainerAboutMe: React.FC = () => {
         <div>
           <Title>Sobre mim</Title>
           <Text>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-            sollicitudin ligula mauris, ac iaculis tortor sodales sit amet.
-            Mauris pellentesque neque eget leo pharetra euismod.
+            Meu nome é Antônio Gally, sou iniciante na área, mas ambicioso.
+            Realizei vários projetos em vários idiomas, um dos quais foi projeto
+            de conclusão de curso, meu curso técnico.
             <div>
-              Curabitur id nulla sem. Cras fermentum tempus purus, ac sodales
-              neque posuere id.
+              Trabalho diariamente com aplicativos WEB e também estou fazendo a
+              transição para o Mobile.
             </div>
           </Text>
           <IconsContent>

@@ -97,4 +97,11 @@ export const Text = styled.div`
   > div {
     margin-top: 30px;
   }
+  > div > a {
+    text-decoration: none;
+    background: linear-gradient(94.15deg, #e01f1f 0%, #1b1bec 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+  }
 `;
