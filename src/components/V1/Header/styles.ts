@@ -26,7 +26,7 @@ export const Button = styled.div`
   cursor: pointer;
   border-radius: 22px;
   font-family: "Be Vietnam";
-  width: 100px;
+  width: 130px;
   height: 30px;
   display: flex;
   align-items: center;

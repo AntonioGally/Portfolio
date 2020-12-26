@@ -24,8 +24,9 @@ html {
  */
 
 body {
-  background-color: ${props => props.theme.colors.background};
+  background-color: var(--background);
   margin: 0;
+  font-family: 'Sora', sans-serif;
 }
 
 main {
@@ -313,11 +314,7 @@ template {
 }
 
 :root{
---primary : #7510F7;
---secundary : #141C3A;
---background : #fff;
---border : #000;
---fontWhite : #fff;
---fontBlack : #000;
+    --background : #161616;
+    --fontPrimary : #FFFFFF;    
 }
 `;

@@ -1,10 +1,10 @@
 import React from "react";
 import Carousel from "react-elastic-carousel";
 
-import QuemVai from "../../img/material/QuemVai.png";
-import git from "../../img/material/git.png";
-import tui from "../../img/material/tui.png";
-import zap from "../../img/material/zap.png";
+import QuemVai from "../../../img/material/QuemVai.png";
+import git from "../../../img/material/git.png";
+import tui from "../../../img/material/tui.png";
+import zap from "../../../img/material/zap.png";
 
 import {
   Container,

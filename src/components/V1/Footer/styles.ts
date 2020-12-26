@@ -11,7 +11,7 @@ export const Container = styled.div`
   }
   margin-top: 15%;
   width: 100%;
-  height: 400px;
+  height: 100%;
   padding-top: 5%;
   background-color: var(--primary);
   position: relative;
@@ -44,6 +44,7 @@ export const IconsContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom:4%;
 `;
 export const Icon = styled.img`
   width: 45px;
