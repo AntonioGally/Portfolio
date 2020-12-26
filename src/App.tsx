@@ -6,7 +6,7 @@ import V2 from "./pages/V2";
 
 function App() {
   return (
-    <div style={{ overflowX: "hidden" }}>
+    <div>
       <HashRouter>
         <Switch>
           <Route exact path="/" component={V2} />

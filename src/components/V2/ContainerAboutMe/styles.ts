@@ -3,6 +3,7 @@ import { Linkedin } from "@styled-icons/boxicons-logos/Linkedin";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 
 export const Container = styled.div`
+  padding: 10px;
   max-width: 1200px;
   @media (min-width: 1500px) {
     max-width: 1600px;
@@ -35,6 +36,9 @@ export const Title = styled.div`
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
+  @media (max-width: 768px) {
+    font-size: 28px;
+  }
   color: #fff;
   margin-bottom: 3%;
 `;
@@ -44,6 +48,9 @@ export const Text = styled.div`
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
   > div {
     margin-top: 30px;
   }
@@ -81,7 +88,7 @@ export const ImageContent = styled.div`
   background-position: center;
   background-size: auto;
   position: relative;
-  @media (max-width: 768px) {
+  @media (max-width: 1100px) {
     display: none;
   }
 `;

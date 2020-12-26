@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  margin-top: 1%;
   @media (max-width: 768px) {
-    margin-top: 5%;
+    padding: 5.5% 20px;
   }
   display: flex;
   justify-content: space-between;
@@ -11,7 +10,7 @@ export const Container = styled.div`
     justify-content: center;
   }
   align-items: center;
-  padding: 20px;
+  padding: 1.5% 20px;
   z-index: 10;
   > span {
     font-family: "IBM Plex Mono";
