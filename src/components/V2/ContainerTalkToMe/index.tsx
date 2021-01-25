@@ -1,9 +1,16 @@
-import React from 'react';
+import React from "react";
 
-// import { Container } from './styles';
+import { Container, Title, FormContent } from "./styles";
 
 const ContainerTalkToMe: React.FC = () => {
-  return <div />;
-}
+  return (
+    <Container>
+      <Title>Fale comigo</Title>
+      <FormContent>
+        <h1>Teste</h1>
+      </FormContent>
+    </Container>
+  );
+};
 
 export default ContainerTalkToMe;

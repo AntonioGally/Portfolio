@@ -31,10 +31,7 @@ export const Title = styled.div`
     background-color: #fff;
     position: absolute;
     top: -13px;
-    left: 46%;
-    @media (max-width: 768px) {
-      left: 36.5%;
-    }
+    left: calc(50% - 50px);
   }
 `;
 export const TecnologyContent = styled.div`

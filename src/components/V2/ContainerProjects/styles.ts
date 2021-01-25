@@ -27,10 +27,8 @@ export const Title = styled.div`
     background-color: #fff;
     position: absolute;
     top: -13px;
-    left: 47%;
-    @media (max-width: 768px) {
-      left: 40%;
-    }
+    left: calc(50% - 50px);
+   
   }
 `;
 export const ProjectContent = styled.div`
@@ -89,6 +87,7 @@ export const Text = styled.div`
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
+  padding-bottom: 20px;
   @media (max-width: 768px) {
     font-size: 20px;
     margin-top: 10%;

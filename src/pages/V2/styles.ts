@@ -4,6 +4,8 @@ export const Container = styled.div`
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.2);
+  padding-bottom:5%;
+  overflow-y: hidden;
   /* ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
@@ -23,5 +25,19 @@ export const MyImage = styled.img`
   position: absolute;
   @media (max-width: 1000px) {
     width: 70vw;
+  }
+`;
+export const MyImageBottom = styled.img`
+  filter: blur(100px) drop-shadow(2px 4px 6px black);
+  width: 70vw;
+  bottom: -30%;
+  left: 15vw;
+  z-index: -10;
+  opacity: 0.8;
+  position: absolute;
+  @media (max-width: 1250px) {
+    width: 100vw;
+    left: -30px;
+    bottom:0;
   }
 `;
