@@ -33,7 +33,6 @@
 ## About The Project
 
 <p align="center">
-    <img src="src/img/prints/printCell.jpg" alt="Print About Page">
     <img src="src/img/prints/printDesktop.jpeg" alt="Print About Page"><br/>
 </p>
 
