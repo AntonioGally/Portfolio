@@ -33,12 +33,51 @@ export const Title = styled.div`
 export const FormContent = styled.div`
   background: linear-gradient(
     101.26deg,
-    rgba(255, 255, 255, 0.08) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgb(125 125 125 / 6%) 0%,
+    rgb(47 47 47 / 15%) 100%
   );
-  height: 500px;
   width: 100%;
   margin: 5% 0 0 0;
   padding: 45px;
+  @media (max-width: 768px) {
+    padding: 10px;
+  }
   border-radius: 16px;
+`;
+
+export const InputContent = styled.div`
+  padding: 10px;
+`;
+export const TitleInput = styled.div`
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--fontPrimary);
+  margin-bottom: 10px;
+`;
+export const MyInput = styled.input`
+  background: #111111;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: 0;
+`;
+export const MyTextArea = styled.textarea`
+  background: #111111;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  width: 100%;
+  border: none;
+  outline: 0;
+`;
+export const ButtonContent = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  padding: 12px;
 `;
