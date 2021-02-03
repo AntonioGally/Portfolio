@@ -49,7 +49,7 @@ hr {
 
 
 pre {
-  font-family: 'Be Vietnam',"Poppins",monospace, monospace; /* 1 */
+  font-family: "Sora",monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -87,7 +87,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: 'Be Vietnam',"Poppins",monospace, monospace; /* 1 */
+  font-family: "Sora",monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
 }
 
@@ -142,7 +142,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: 'Be Vietnam',"Poppins",inherit; /* 1 */
+  font-family: "Sora",inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
