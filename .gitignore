@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 /src/components/V2/ContainerTalkToMe/FireBaseUtils.tsx
+
+# Local Netlify folder
+.netlify
