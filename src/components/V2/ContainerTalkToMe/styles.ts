@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+import { ChevronDownCircle } from "@styled-icons/boxicons-regular/ChevronDownCircle";
+
+export const CheckIcon = styled(ChevronDownCircle)`
+  width: 110px;
+  height: 110px;
+  fill: lightgreen;
+  flex-shrink: 0;
+`;
+
 export const Container = styled.div`
   max-width: 1300px;
   padding: 0 30px;
@@ -14,7 +23,7 @@ export const Title = styled.div`
   font-weight: bold;
   font-size: 32px;
   @media (max-width: 768px) {
-    font-size: 28px;
+    font-size: 26px;
   }
   position: relative;
   display: flex;
@@ -53,6 +62,9 @@ export const TitleInput = styled.div`
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
   color: var(--fontPrimary);
   margin-bottom: 10px;
 `;
