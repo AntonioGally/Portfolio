@@ -8,10 +8,10 @@
   <p align="center">
    My personal portfolio, made with the objective of promoting my work in the development area.
     <br />
-    <a href="https://github.com/AntonioGally/Portfolio"><strong> Explore the docs »</strong></a>
+    <a href="https://github.com/AntonioGally/Portfolio#about-the-project"><strong> Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://antoniogally.netlify.app">View Demo</a>
+    <a href="https://antoniogally.tk">View Demo</a>
     ·
     <a href="https://github.com/AntonioGally/Portfolio/issues">Report Bug</a>
     ·
@@ -47,6 +47,8 @@ Here is a list of the Frameworks and libraries that I used in the project
 - [Elastic Carousel](https://github.com/sag1v/react-elastic-carousel)
 - [Styled Components](https://styled-components.com)
 - [Framer Motion](https://www.framer.com/motion/)
+- [Firebase](https://firebase.google.com/?hl=pt-br)
+- [React Hook Form](https://react-hook-form.com)
 
 <!-- GETTING STARTED -->
 
@@ -80,7 +82,13 @@ code ./Portfolio
 yarn install
 ```
 
-4. Initialize the project
+4. Create the FireBaseUtils.tsx with your DB Credentials
+
+```sh
+./src/components/V2/ContainerTalkToMe/FireBaseUtils.tsx
+```
+
+5. Initialize the project
 
 ```sh
 yarn start
