@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
+import ModalInformation from "./ModalInformation";
 import { Carousel } from "react-bootstrap";
 import { motion } from "framer-motion";
 import {
@@ -17,6 +18,8 @@ import {
 } from "./styles";
 
 const Projects: React.FC = () => {
+  const [open, setOpen] = React.useState(false);
+  const [auxTitle, setAuxTitle] = React.useState("");
   return (
     <Container>
       <Title>Principais Projetos</Title>
@@ -43,7 +46,13 @@ const Projects: React.FC = () => {
                         <div>
                           Dentro do projeto, fui responsável por trabalhar junto
                           com uma equipe e desenvolver o Front-end da aplicação
-                          em React. <PlusIcon />
+                          em React.{" "}
+                          <PlusIcon
+                            onClick={() => {
+                              setOpen(true);
+                              setAuxTitle("Quem Vai");
+                            }}
+                          />
                         </div>
                       </Text>
                     </Card>
@@ -61,7 +70,12 @@ const Projects: React.FC = () => {
                           Estou realizando esse projeto para aplicar
                           responsividade ao WhatsApp Web,cadastrar usuários e
                           realizar um chat de conversa em tempo real.
-                          <PlusIcon />
+                          <PlusIcon
+                            onClick={() => {
+                              setOpen(true);
+                              setAuxTitle("Clone Whatsapp");
+                            }}
+                          />
                         </div>
                       </Text>
                     </Card>
@@ -88,7 +102,12 @@ const Projects: React.FC = () => {
                           >
                             seu trabalho.
                           </a>
-                          <PlusIcon />
+                          <PlusIcon
+                            onClick={() => {
+                              setOpen(true);
+                              setAuxTitle("Esse Site");
+                            }}
+                          />
                         </div>
                       </Text>
                     </Card>
@@ -157,6 +176,15 @@ const Projects: React.FC = () => {
           </Carousel>
         </CellPhoneVersion>
       </ProjectContent>
+      {open ? (
+        <ModalInformation
+          Title={auxTitle}
+          Open={open}
+          onClose={() => setOpen(false)}
+        />
+      ) : (
+        ""
+      )}
     </Container>
   );
 };

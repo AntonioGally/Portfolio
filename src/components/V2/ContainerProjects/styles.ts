@@ -19,6 +19,7 @@ export const Container = styled.div`
   }
   margin: 10% auto 0 auto;
 `;
+
 export const Title = styled.div`
   font-family: "Sora";
   font-style: normal;
@@ -128,3 +129,6 @@ export const CardContent = styled.div`
     width: 320px;
   }
 `;
+
+export const TitleModal = styled.div``;
+export const TextModal = styled.div``;
