@@ -28,7 +28,6 @@ export const Title = styled.div`
     position: absolute;
     top: -13px;
     left: calc(50% - 50px);
-   
   }
 `;
 export const ProjectContent = styled.div`
@@ -67,8 +66,10 @@ export const Card = styled.div`
       rgba(255, 255, 255, 0.05) 0%,
       rgba(255, 255, 255, 0) 70%
     );
+    max-width: 700px;
+    margin: auto;
   }
-  padding: 24px;
+  padding: 30px;
   border-radius: 16px;
 `;
 export const TitleCard = styled.div`

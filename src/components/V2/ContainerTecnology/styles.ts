@@ -56,6 +56,10 @@ var stylesIcon = css`
   cursor: pointer;
   margin: 0 auto;
   @media (max-width: 768px) {
+    height: 70px;
+    width: 70px;
+  }
+  @media (max-width: 450px) {
     height: 38px;
     width: 38px;
   }
