@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
             >
               <MyGridContent>
                 <CardContent>
-                  <motion.div whileTap={{ scale: 0.9 }}>
+                  <motion.div whileHover={{ scale: 0.9 }}>
                     <Card>
                       <TitleCard>Quem Vai</TitleCard>
                       <Text>
@@ -46,7 +46,7 @@ const Projects: React.FC = () => {
                         <div>
                           Dentro do projeto, fui responsável por trabalhar junto
                           com uma equipe e desenvolver o Front-end da aplicação
-                          em React.{" "}
+                          em React.
                           <PlusIcon
                             onClick={() => {
                               setOpen(true);
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
                   </motion.div>
                 </CardContent>
                 <CardContent>
-                  <motion.div whileTap={{ scale: 0.9 }}>
+                  <motion.div whileHover={{ scale: 0.9 }}>
                     <Card>
                       <TitleCard>Clone Whatsapp</TitleCard>
                       <Text>
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
                   </motion.div>
                 </CardContent>
                 <CardContent>
-                  <motion.div whileTap={{ scale: 0.9 }}>
+                  <motion.div whileHover={{ scale: 0.9 }}>
                     <Card>
                       <TitleCard>Esse Site</TitleCard>
                       <Text>
@@ -94,7 +94,7 @@ const Projects: React.FC = () => {
                         </div>
                         <div>
                           A UI do site foi feita pelo meu amigo Pedro
-                          Emerenciano, vale conferir{" "}
+                          Emerenciano, vale conferir
                           <a
                             href="https://www.linkedin.com/in/pedro-emerenciano/"
                             target="_blank"
