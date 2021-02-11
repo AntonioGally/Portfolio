@@ -1,4 +1,15 @@
 import styled from "styled-components";
+import { CommentAdd } from "@styled-icons/boxicons-solid/CommentAdd";
+
+export const PlusIcon = styled(CommentAdd)`
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  cursor: pointer;
+  color: white;
+  fill: white;
+  margin-left: 20px;
+`;
 
 export const Container = styled.div`
   max-width: 1300px;
@@ -103,5 +114,17 @@ export const Text = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+  }
+`;
+export const MyGridContent = styled.div`
+  width: 100%;
+  position: relative;
+  display: flex;
+  cursor: grab;
+`;
+export const CardContent = styled.div`
+  width: 520px;
+  @media (max-width: 500px) {
+    width: 320px;
   }
 `;
