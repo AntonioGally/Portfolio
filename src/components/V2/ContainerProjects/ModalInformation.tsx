@@ -23,8 +23,31 @@ export interface Props {
   Open: boolean;
   onClose: any;
 }
-
+//titulo
+//texto
+//imagem
+//tecnologia
 const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
+  // const ListProjetcs = [
+  //   {
+  //     Title: {
+  //       Text:
+  //         "Existem vários aplicativos de encontro disponíveis no mercado hoje em dia, mas nós queríamos algo mais. Por meio do aplicativo Quem Vai, nós democratizamos a busca e o uso de áreas de lazer, ciente que a maior plataforma de mapas que nós temos (google maps) não nos informa com especificidade todas as áreas de lazer dispníveis nas regiões próximas, e suas características.",
+  //       Image:
+  //         "https://raw.githubusercontent.com/AntonioGally/QuemVai_Front-End/AplicationWeb/src/img/logo/QuemVaiLogo2.png",
+  //       Tecnology: [
+  //         "React JS",
+  //         "Typescript",
+  //         "Firebase",
+  //         "Framer Motion",
+  //         "Material UI",
+  //         "Bootstrap",
+  //         "React Hook Form",
+  //         "Styled Components",
+  //       ],
+  //     },
+  //   },
+  // ];
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const StyledModal = withStyles({

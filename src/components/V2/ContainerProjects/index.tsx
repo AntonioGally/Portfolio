@@ -37,7 +37,7 @@ const Projects: React.FC = () => {
             >
               <MyGridContent>
                 <CardContent>
-                  <motion.div whileHover={{ scale: 0.9 }}>
+                  <motion.div >
                     <Card>
                       <TitleCard>Quem Vai</TitleCard>
                       <Text>
@@ -59,7 +59,7 @@ const Projects: React.FC = () => {
                   </motion.div>
                 </CardContent>
                 <CardContent>
-                  <motion.div whileHover={{ scale: 0.9 }}>
+                  <motion.div >
                     <Card>
                       <TitleCard>Clone Whatsapp</TitleCard>
                       <Text>
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
                   </motion.div>
                 </CardContent>
                 <CardContent>
-                  <motion.div whileHover={{ scale: 0.9 }}>
+                  <motion.div >
                     <Card>
                       <TitleCard>Esse Site</TitleCard>
                       <Text>

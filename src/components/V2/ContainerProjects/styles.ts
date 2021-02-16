@@ -169,12 +169,14 @@ export const ImageModal = styled.img`
   margin: 0 auto;
 `;
 export const MyDialogContent = styled.div`
-  overflow-y: unset;
-  @media (max-width: 779px) {
-    height: 100%;
-  }
-  @media (min-width: 780px) {
-    max-height: 400px;
+  > div {
+    overflow-y: unset;
+    @media (max-width: 779px) {
+      height: 100%;
+    }
+    @media (min-width: 780px) {
+      max-height: 400px;
+    }
   }
 `;
 export const ListModal = styled.div`
