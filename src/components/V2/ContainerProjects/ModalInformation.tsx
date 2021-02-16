@@ -28,26 +28,66 @@ export interface Props {
 //imagem
 //tecnologia
 const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
-  // const ListProjetcs = [
-  //   {
-  //     Title: {
-  //       Text:
-  //         "Existem vários aplicativos de encontro disponíveis no mercado hoje em dia, mas nós queríamos algo mais. Por meio do aplicativo Quem Vai, nós democratizamos a busca e o uso de áreas de lazer, ciente que a maior plataforma de mapas que nós temos (google maps) não nos informa com especificidade todas as áreas de lazer dispníveis nas regiões próximas, e suas características.",
-  //       Image:
-  //         "https://raw.githubusercontent.com/AntonioGally/QuemVai_Front-End/AplicationWeb/src/img/logo/QuemVaiLogo2.png",
-  //       Tecnology: [
-  //         "React JS",
-  //         "Typescript",
-  //         "Firebase",
-  //         "Framer Motion",
-  //         "Material UI",
-  //         "Bootstrap",
-  //         "React Hook Form",
-  //         "Styled Components",
-  //       ],
-  //     },
-  //   },
-  // ];
+  const ListProjetcs = [
+    {
+      Title: "Quem Vai",
+      Link: "https://github.com/AntonioGally/QuemVai_Front-End",
+      Text:
+        "Existem vários aplicativos de encontro disponíveis no mercado hoje em dia, mas nós queríamos algo mais. Por meio do aplicativo Quem Vai, nós democratizamos a busca e o uso de áreas de lazer, ciente que a maior plataforma de mapas que nós temos (google maps) não nos informa com especificidade todas as áreas de lazer dispníveis nas regiões próximas, e suas características.",
+      Image:
+        "https://raw.githubusercontent.com/AntonioGally/QuemVai_Front-End/AplicationWeb/src/img/logo/QuemVaiLogo2.png",
+      Tecnology: [
+        "React JS",
+        "Typescript",
+        "Firebase",
+        "Framer Motion",
+        "Material UI",
+        "Bootstrap",
+        "React Hook Form",
+        "Styled Components",
+      ],
+    },
+    {
+      Title: "Clone Whatsapp",
+      Link: "https://github.com/AntonioGally/CloneWhatsapp",
+      Text:
+        "TonyZap é um aplicativo clone do WhatsAppWeb com o objetivo de conhecer tecnologias novas e adicionar responsividade ao projeto original. Este projeto ainda está em desenvolvimento e contará com versão mobile que será desenvolvida em React Native em conjunto com um novo desing ao aplicativo, trazendo mais acessibilidade e usabilidade ao projeto.",
+      Image:
+        "https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png",
+      Tecnology: [
+        "React JS",
+        "React Native",
+        "Typescript",
+        "Firebase",
+        "Framer Motion",
+        "Material UI",
+        "Bootstrap",
+        "Styled Components",
+        "Emoji Picker",
+        "Web Vitals",
+      ],
+    },
+    {
+      Title: "Esse Site",
+      Link: "https://github.com/AntonioGally/Portfolio",
+      Text:
+        "Fiz esse portfólio porque precisava de uma plataforma para postar meus projetos futuros, sei que existe o GitHub, mas essa plataforma é mais voltada para Devs. Quanto ao design do portfólio, me inspirei em vários na internet, e fiz o meu com algumas modificações. Este portfólio conta com uma área de administração que me auxilia a postar novos projetos, gerenciar as mensagens recebidas e trabalhar na escalabilidade do projeto pensando em dados estatísticos",
+      Image:
+        "https://raw.githubusercontent.com/AntonioGally/Portfolio/master/src/img/logo/logoWhite.png",
+      Tecnology: [
+        "React JS",
+        "Typescript",
+        "Firebase",
+        "Framer Motion",
+        "Material UI",
+        "Bootstrap",
+        "Styled Components",
+        "Styked Icons",
+        "React Hook Form",
+        "React Router Doom",
+      ],
+    },
+  ];
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("xs"));
   const StyledModal = withStyles({
@@ -66,78 +106,122 @@ const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">
-          <MyHeaderModal>
-            <TitleModal>
-              <a
-                href="https://github.com/AntonioGally/QuemVai_Front-End"
-                target="_blank"
-                rel="noreferrer"
-              >
-                {Title}
-              </a>
-            </TitleModal>
-            <CloseIcon onClick={onClose} />
-          </MyHeaderModal>
-        </DialogTitle>
-        <MyDialogContent>
-          <DialogContent>
-            <DialogContentText id="alert-dialog-description">
-              <Grid container spacing={3} justify="center" alignItems="center">
-                <Grid item xs={12} sm={12} md={9} lg={9} xl={9}>
-                  <TextModal>
-                    Existem vários aplicativos de encontro disponíveis no
-                    mercado hoje em dia, mas nós queríamos algo mais. Por meio
-                    do aplicativo Quem Vai, nós democratizamos a busca e o uso
-                    de áreas de lazer, ciente que a maior plataforma de mapas
-                    que nós temos (google maps) não nos informa com
-                    especificidade todas as áreas de lazer dispníveis nas
-                    regiões próximas, e suas características.
-                  </TextModal>
-                </Grid>
-                <Grid
-                  item
-                  xs={12}
-                  sm={12}
-                  md={3}
-                  lg={3}
-                  xl={3}
-                  style={{ textAlign: "center" }}
-                >
-                  <ImageModal
-                    src="https://raw.githubusercontent.com/AntonioGally/QuemVai_Front-End/AplicationWeb/src/img/logo/QuemVaiLogo2.png"
-                    alt="Project description"
-                  />
-                </Grid>
-              </Grid>
-              <Grid
-                style={{ marginTop: "4%" }}
-                container
-                spacing={3}
-                justify="flex-start"
-                direction="column"
-              >
-                <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
-                  <TitleModal>Tecnologias usadas</TitleModal>
-                  <ListModal>
-                    <ul>
-                      <ListItem>React JS</ListItem>
-                      <ListItem>Typescript</ListItem>
-                      <ListItem>Firebase</ListItem>
-                      <ListItem>Framer Motion</ListItem>
-                    </ul>
-                    <ul>
-                      <ListItem>Material UI</ListItem>
-                      <ListItem>Bootstrap</ListItem>
-                      <ListItem>React Hook Form</ListItem>
-                      <ListItem>Styled Components</ListItem>
-                    </ul>
-                  </ListModal>
-                </Grid>
-              </Grid>
-            </DialogContentText>
-          </DialogContent>
-        </MyDialogContent>
+        {ListProjetcs.map((information) => (
+          <div
+            style={information.Title === Title ? {} : { display: "none" }}
+            key={information.Title}
+          >
+            <DialogTitle id="alert-dialog-title">
+              <MyHeaderModal>
+                <TitleModal>
+                  <a
+                    href={
+                      information.Title === Title
+                        ? information.Link
+                        : "www.github.com/AntonioGally"
+                    }
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {Title}
+                  </a>
+                </TitleModal>
+                <CloseIcon onClick={onClose} />
+              </MyHeaderModal>
+            </DialogTitle>
+            <MyDialogContent>
+              <DialogContent>
+                <DialogContentText id="alert-dialog-description">
+                  <Grid
+                    container
+                    spacing={3}
+                    justify="center"
+                    alignItems="center"
+                  >
+                    <Grid item xs={12} sm={12} md={9} lg={9} xl={9}>
+                      <TextModal>
+                        {information.Title === Title ? information.Text : ""}
+                      </TextModal>
+                    </Grid>
+                    <Grid
+                      item
+                      xs={12}
+                      sm={12}
+                      md={3}
+                      lg={3}
+                      xl={3}
+                      style={{ textAlign: "center" }}
+                    >
+                      <ImageModal
+                        src={
+                          information.Title === Title ? information.Image : ""
+                        }
+                        alt="Project Image"
+                      />
+                    </Grid>
+                  </Grid>
+                  <Grid
+                    style={{ marginTop: "4%" }}
+                    container
+                    spacing={3}
+                    justify="flex-start"
+                    direction="column"
+                  >
+                    <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+                      <TitleModal>Tecnologias usadas</TitleModal>
+                      <ListModal>
+                        {information.Title === Title
+                          ? information.Tecnology.map((content) => (
+                              <>
+                                {/* {content.length <= 4 ? (
+                                  <ul>
+                                    <ListItem>{content}</ListItem>
+                                  </ul>
+                                ) : content.length > 5 &&
+                                  content.length <= 8 ? (
+                                  () => {
+                                    var arr1 = [
+                                      content[0],
+                                      content[1],
+                                      content[2],
+                                      content[3],
+                                    ];
+                                    var arr2 = [
+                                      content[4],
+                                      content[5],
+                                      content[6],
+                                      content[7],
+                                    ];
+                                    return (
+                                      <ul></ul>
+                                    )
+                                  }
+                                ) : (
+                                  <ul></ul>
+                                )} */}
+                              </>
+                            ))
+                          : ""}
+                        <ul>
+                          <ListItem>React JS</ListItem>
+                          <ListItem>Typescript</ListItem>
+                          <ListItem>Firebase</ListItem>
+                          <ListItem>Framer Motion</ListItem>
+                        </ul>
+                        <ul>
+                          <ListItem>Material UI</ListItem>
+                          <ListItem>Bootstrap</ListItem>
+                          <ListItem>React Hook Form</ListItem>
+                          <ListItem>Styled Components</ListItem>
+                        </ul>
+                      </ListModal>
+                    </Grid>
+                  </Grid>
+                </DialogContentText>
+              </DialogContent>
+            </MyDialogContent>
+          </div>
+        ))}
       </StyledModal>
     </>
   );
