@@ -84,6 +84,22 @@ const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
         "React Router Doom",
       ],
     },
+    {
+      Title: "Abecedário",
+      Link: "https://abecedario.apliqueducacao.com.br",
+      Text:
+        "O aplicativo foi desenvolvido com foco no auxílio da alfabetização infantil. Ele possui três páginas explicativas: som das letras, tipos de letra contendo ilustração de palavras e a principal função que é a ilustração da grafia das letras, onde a criança consegue aprender a escrever observando a animação de gafria. Foi feita em conjunto da startUp ApliquEducação.",
+      Image:
+        "https://abecedario.apliqueducacao.com.br/static/media/logoAplique.ff0ca692.png",
+      Tecnology: [
+        "React JS",
+        "Typescript",
+        "Framer Motion",
+        "Material UI",
+        "Styled Components",
+        "Howler",
+      ],
+    },
   ];
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("xs"));

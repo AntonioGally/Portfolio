@@ -107,6 +107,26 @@ const Projects: React.FC = () => {
                     </Text>
                   </Card>
                 </CardContent>
+                <CardContent>
+                  <Card>
+                    <TitleCard>Abecedário</TitleCard>
+                    <Text>
+                      Esse app foi feito com o objetivo auxiliar os professores
+                      na alfabetização infantil, principalmente via EAD.
+                      <div>
+                        Foi desenvolvido em conjunto com um time de designers e
+                        pedagogas, fazendo com que o aplicativo tenha uma base
+                        sólida.
+                        <PlusIcon
+                          onClick={() => {
+                            setOpen(true);
+                            setAuxTitle("Abecedário");
+                          }}
+                        />
+                      </div>
+                    </Text>
+                  </Card>
+                </CardContent>
               </MyGridContent>
             </motion.div>
           </Grid>
@@ -122,7 +142,12 @@ const Projects: React.FC = () => {
                   <div>
                     Dentro do projeto, fui responsável por trabalhar junto com
                     uma equipe e desenvolver o Front-end da aplicação em React.
-                    <PlusIcon />
+                    <PlusIcon
+                      onClick={() => {
+                        setOpen(true);
+                        setAuxTitle("Quem Vai");
+                      }}
+                    />
                   </div>
                 </Text>
               </Card>
@@ -137,7 +162,12 @@ const Projects: React.FC = () => {
                     Estou realizando esse projeto para aplicar responsividade ao
                     WhatsApp Web,cadastrar usuários e realizar um chat de
                     conversa em tempo real.
-                    <PlusIcon />
+                    <PlusIcon
+                      onClick={() => {
+                        setOpen(true);
+                        setAuxTitle("Clone Whatsapp");
+                      }}
+                    />
                   </div>
                 </Text>
               </Card>
@@ -161,8 +191,33 @@ const Projects: React.FC = () => {
                       rel="noreferrer"
                     >
                       seu trabalho.
-                      <PlusIcon />
                     </a>
+                    <PlusIcon
+                      onClick={() => {
+                        setOpen(true);
+                        setAuxTitle("Esse Site");
+                      }}
+                    />
+                  </div>
+                </Text>
+              </Card>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Card>
+                <TitleCard>Abecedário</TitleCard>
+                <Text>
+                  Esse app foi feito com o objetivo auxiliar os professores na
+                  alfabetização infantil, principalmente via EAD.
+                  <div>
+                    Foi desenvolvido em conjunto com um time de designers e
+                    pedagogas, fazendo com que o aplicativo tenha uma base
+                    sólida.
+                    <PlusIcon
+                      onClick={() => {
+                        setOpen(true);
+                        setAuxTitle("Abecedário");
+                      }}
+                    />
                   </div>
                 </Text>
               </Card>
