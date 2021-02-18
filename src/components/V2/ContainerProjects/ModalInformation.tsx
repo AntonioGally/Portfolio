@@ -23,10 +23,7 @@ export interface Props {
   Open: boolean;
   onClose: any;
 }
-//titulo
-//texto
-//imagem
-//tecnologia
+
 const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
   const ListProjetcs = [
     {
@@ -170,50 +167,60 @@ const ContainerProjects: React.FC<Props> = ({ Title, Open, onClose }) => {
                     <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
                       <TitleModal>Tecnologias usadas</TitleModal>
                       <ListModal>
-                        {information.Title === Title
-                          ? information.Tecnology.map((content) => (
-                              <>
-                                {/* {content.length <= 4 ? (
-                                  <ul>
-                                    <ListItem>{content}</ListItem>
-                                  </ul>
-                                ) : content.length > 5 &&
-                                  content.length <= 8 ? (
-                                  () => {
-                                    var arr1 = [
-                                      content[0],
-                                      content[1],
-                                      content[2],
-                                      content[3],
-                                    ];
-                                    var arr2 = [
-                                      content[4],
-                                      content[5],
-                                      content[6],
-                                      content[7],
-                                    ];
-                                    return (
-                                      <ul></ul>
-                                    )
-                                  }
-                                ) : (
-                                  <ul></ul>
-                                )} */}
-                              </>
-                            ))
-                          : ""}
-                        <ul>
-                          <ListItem>React JS</ListItem>
-                          <ListItem>Typescript</ListItem>
-                          <ListItem>Firebase</ListItem>
-                          <ListItem>Framer Motion</ListItem>
-                        </ul>
-                        <ul>
-                          <ListItem>Material UI</ListItem>
-                          <ListItem>Bootstrap</ListItem>
-                          <ListItem>React Hook Form</ListItem>
-                          <ListItem>Styled Components</ListItem>
-                        </ul>
+                        {information.Title === Title ? (
+                          information.Tecnology.length <= 4 ? (
+                            <>
+                              {information.Tecnology.map((data) => (
+                                <ListItem>{data}</ListItem>
+                              ))}
+                            </>
+                          ) : information.Tecnology.length <= 8 ? (
+                            <>
+                              <ul>
+                                {information.Tecnology.slice(0, 4).map(
+                                  (data) => (
+                                    <ListItem>{data}</ListItem>
+                                  )
+                                )}
+                              </ul>
+                              <ul>
+                                {information.Tecnology.slice(4, 9).map(
+                                  (data) => (
+                                    <ListItem>{data}</ListItem>
+                                  )
+                                )}
+                              </ul>
+                            </>
+                          ) : information.Tecnology.length <= 12 ? (
+                            <>
+                              <ul>
+                                {information.Tecnology.slice(0, 4).map(
+                                  (data) => (
+                                    <ListItem>{data}</ListItem>
+                                  )
+                                )}
+                              </ul>
+                              <ul>
+                                {information.Tecnology.slice(4, 8).map(
+                                  (data) => (
+                                    <ListItem>{data}</ListItem>
+                                  )
+                                )}
+                              </ul>
+                              <ul>
+                                {information.Tecnology.slice(9, 13).map(
+                                  (data) => (
+                                    <ListItem>{data}</ListItem>
+                                  )
+                                )}
+                              </ul>
+                            </>
+                          ) : (
+                            ""
+                          )
+                        ) : (
+                          ""
+                        )}
                       </ListModal>
                     </Grid>
                   </Grid>
