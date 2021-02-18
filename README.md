@@ -49,6 +49,7 @@ Here is a list of the Frameworks and libraries that I used in the project
 - [Framer Motion](https://www.framer.com/motion/)
 - [Firebase](https://firebase.google.com/?hl=pt-br)
 - [React Hook Form](https://react-hook-form.com)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
 
 <!-- GETTING STARTED -->
 

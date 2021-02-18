@@ -13,15 +13,23 @@ export const Container = styled.div`
     font-family: "Sora";
     font-style: normal;
     font-weight: 600;
-    font-size: 136px;
+    font-size: 110px;
+    line-height: 135px;
+    @media (min-width: 1500px) {
+      font-size: 136px;
+      line-height: 171px;
+    }
     @media (max-width: 1200px) {
       font-size: 100px;
     }
     @media (max-width: 768px) {
+      font-size: 70px;
+      line-height: 75px;
+    }
+    @media (max-width: 450px) {
       font-size: 48px;
       line-height: 60px;
     }
-    line-height: 171px;
     color: var(--fontPrimary);
     &.MyName {
       background: linear-gradient(94.15deg, #e01f1f 0%, #1b1bec 100%);

@@ -1,4 +1,16 @@
 import styled from "styled-components";
+import { CommentAdd } from "@styled-icons/boxicons-solid/CommentAdd";
+import { CloseOutline } from "@styled-icons/evaicons-outline/CloseOutline";
+
+export const PlusIcon = styled(CommentAdd)`
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  cursor: pointer;
+  color: white;
+  fill: white;
+  margin-left: 10px;
+`;
 
 export const Container = styled.div`
   max-width: 1300px;
@@ -8,6 +20,7 @@ export const Container = styled.div`
   }
   margin: 10% auto 0 auto;
 `;
+
 export const Title = styled.div`
   font-family: "Sora";
   font-style: normal;
@@ -28,7 +41,6 @@ export const Title = styled.div`
     position: absolute;
     top: -13px;
     left: calc(50% - 50px);
-   
   }
 `;
 export const ProjectContent = styled.div`
@@ -38,6 +50,11 @@ export const ProjectContent = styled.div`
   }
   margin-top: 5%;
   width: 100%;
+  overflow: hidden;
+  @media (min-width: 780px) {
+    box-shadow: -50px 0px 7px var(--background) inset;
+    border-radius: 8px;
+  }
 `;
 export const DesktopVersion = styled.div`
   @media (max-width: 1100px) {
@@ -67,8 +84,10 @@ export const Card = styled.div`
       rgba(255, 255, 255, 0.05) 0%,
       rgba(255, 255, 255, 0) 70%
     );
+    max-width: 700px;
+    margin: auto;
   }
-  padding: 24px;
+  padding: 30px;
   border-radius: 16px;
 `;
 export const TitleCard = styled.div`
@@ -102,5 +121,94 @@ export const Text = styled.div`
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+  }
+`;
+export const MyGridContent = styled.div`
+  width: 100%;
+  position: relative;
+  display: flex;
+  cursor: grab;
+`;
+export const CardContent = styled.div`
+  width: 470px;
+  @media (min-width: 1500px) {
+    width: 520px;
+  }
+  @media (max-width: 500px) {
+    width: 320px;
+  }
+`;
+
+export const TitleModal = styled.div`
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  > a {
+    color: white;
+    text-decoration: underline;
+  }
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+  color: #fff;
+`;
+export const TextModal = styled.div`
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+`;
+export const ImageModal = styled.img`
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+`;
+export const MyDialogContent = styled.div`
+  > div {
+    overflow-y: unset;
+    @media (max-width: 779px) {
+      height: 100%;
+    }
+    @media (min-width: 780px) {
+      max-height: 400px;
+    }
+  }
+`;
+export const ListModal = styled.div`
+  padding: 10px;
+  display: flex;
+  margin-top: 5%;
+  @media (max-width: 500px) {
+    flex-direction: column;
+    justify-content: center;
+  }
+  justify-content: space-evenly;
+`;
+export const MyHeaderModal = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
+export const CloseIcon = styled(CloseOutline)`
+  height: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+  padding-right: 20px;
+  color: white;
+  fill: white;
+`;
+export const ListItem = styled.li`
+  color: rgba(255, 255, 255, 0.75);
+  font-family: Sora;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 5px;
+  @media (max-width: 768px) {
+    font-size: 20px;
   }
 `;
