@@ -22,7 +22,6 @@ import Slide from "@material-ui/core/Slide";
 import { TransitionProps } from "@material-ui/core/transitions";
 
 import { useForm } from "react-hook-form";
-import { db, firebase } from "./FireBaseUtils";
 
 type TextForm = {
   userName: string;
@@ -41,13 +40,18 @@ const ContainerTalkToMe: React.FC = () => {
   const [open, setOpen] = React.useState(false);
 
   const SubmitForm = async (data: TextForm) => {
-    db.collection("mensagens").add({
-      email: data.userEmail,
-      mensagem: data.userMesage,
-      nome: data.userName,
-      sended: firebase.firestore.FieldValue.serverTimestamp(),
-    });
-    setOpen(true);
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(data).toString(),
+    })
+      .then(() => {
+        setOpen(true);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+
     var userNameInput = document.getElementById("userName") as HTMLInputElement;
     userNameInput.value = "";
 
@@ -65,7 +69,13 @@ const ContainerTalkToMe: React.FC = () => {
   return (
     <Container id="ContainerTalkToMe">
       <Title>Fale comigo</Title>
-      <form onSubmit={handleSubmit(SubmitForm)} id="formMessage">
+      <form
+        onSubmit={handleSubmit(SubmitForm)}
+        id="formMessage"
+        method="post"
+        name="client-contact"
+        data-netlify="true"
+      >
         <FormContent>
           <Grid container spacing={3}>
             <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>

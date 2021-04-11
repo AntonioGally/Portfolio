@@ -39,29 +39,27 @@ const Projects: React.FC = () => {
             >
               <MyGridContent>
                 {ListProject().map((data, index) => (
-                  <>
-                    <CardContent key={index}>
-                      <Card>
-                        <TitleCard>{data.title}</TitleCard>
-                        <Text>
-                          {data.text01}
-                          {data.text02 && (
-                            <>
-                              <div>
-                                {data.text02}
-                                <PlusIcon
-                                  onClick={() => {
-                                    setOpen(true);
-                                    setAuxTitle(data.title);
-                                  }}
-                                />
-                              </div>
-                            </>
-                          )}
-                        </Text>
-                      </Card>
-                    </CardContent>
-                  </>
+                  <CardContent key={index}>
+                    <Card>
+                      <TitleCard>{data.title}</TitleCard>
+                      <Text>
+                        {data.text01}
+                        {data.text02 && (
+                          <>
+                            <div>
+                              {data.text02}
+                              <PlusIcon
+                                onClick={() => {
+                                  setOpen(true);
+                                  setAuxTitle(data.title);
+                                }}
+                              />
+                            </div>
+                          </>
+                        )}
+                      </Text>
+                    </Card>
+                  </CardContent>
                 ))}
                 <CardContent>
                   <Card>
