@@ -1,5 +1,8 @@
 {
-    "products": {
-        "cart": "Add to Cart"
+    "navbar": {
+        "projects": "Projects",
+        "about": "About",
+        "tech_tendencies": "Tech Tendencies",
+        "contact": "Contact"
     }
 }
