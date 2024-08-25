@@ -6,6 +6,11 @@ export interface DictionaryType {
         about: string;
         tech_tendencies: string;
         contact: string;
+    };
+    bannerSection: {
+        jobTitle: string;
+        textRows: string[];
+        button: string;
     }
 }
 

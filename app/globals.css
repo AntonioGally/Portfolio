@@ -7,6 +7,10 @@
   --color: #fff;
 }
 
+html {
+  font-family: var(--font-darker-grotesque);
+}
+
 body {
   margin: 0;
   padding: 0;

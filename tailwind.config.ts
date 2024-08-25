@@ -13,6 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        darkerGrotesque: ['var(--font-darker-grotesque)'],
+        redHatDisplay: ['var(--font-red-hat-display)'],
+        fraunces: ['var(--font-fraunces)'],
+        sans: ['var(--font-darker-grotesque)']
+      }
     },
   },
   plugins: [],

@@ -4,5 +4,15 @@
         "about": "About",
         "tech_tendencies": "Tech Tendencies",
         "contact": "Contact"
+    },
+    "bannerSection": {
+        "jobTitle": "frontend developer at looqbox",
+        "textRows": [
+            "Turning inspiring",
+            "digital experiences",
+            "into",
+            "reality"
+        ],
+        "button": "Explore"
     }
 }
