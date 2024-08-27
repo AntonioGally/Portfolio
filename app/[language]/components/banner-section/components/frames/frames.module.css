@@ -1,0 +1,22 @@
+.framesWrapper {
+    transform: scale(1.4) rotate(10deg) translate(60px, 0px);
+}
+
+.perspectiveView {
+    transition: all ease-in-out 0.5s;
+    transform: perspective(3200px) rotateY(-30deg) rotateX(40deg) translate(0px, 0px) translateZ(50px);
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+}
+
+.framesWrapper:hover .perspectiveView {
+    transform: perspective(3200px) rotateY(-30deg) rotateX(40deg) translate(0px, -140px) translateZ(50px);
+}
+
+.bottomPerspectiveView {
+    background:
+        radial-gradient(ellipse at left top, #9B95DF, transparent),
+        radial-gradient(ellipse at center, #D7E8C6, transparent),
+        radial-gradient(ellipse at right bottom, #DD9A79, transparent);
+}

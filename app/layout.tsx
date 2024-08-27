@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { darkerGrotesque, fraunces, redHatDisplay } from "./fonts";
+import { darkerGrotesque, fraunces, ibmPlexMono, redHatDisplay } from "./fonts";
 
 export const metadata: Metadata = {
   title: "gally",
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <body className={`${darkerGrotesque.variable} ${fraunces.variable} ${redHatDisplay.variable} font-sans`}>
+      <body className={`${darkerGrotesque.variable} ${fraunces.variable} ${redHatDisplay.variable} ${ibmPlexMono.variable} font-sans`}>
         {children}
       </body>
     </html>

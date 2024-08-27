@@ -11,9 +11,6 @@ export default async function Home({ params }: { params: { language: string } })
       <HomeProvider dictionary={dict}>
         <Header />
         <BannerSection />
-        <div className="h-[100vh]">
-          <span>oi</span>
-        </div>
       </HomeProvider>
     </div>
   )

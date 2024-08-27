@@ -17,6 +17,7 @@ const config: Config = {
         darkerGrotesque: ['var(--font-darker-grotesque)'],
         redHatDisplay: ['var(--font-red-hat-display)'],
         fraunces: ['var(--font-fraunces)'],
+        ibmPlexMono: ['var(--font-ibm-plex-mono)'],
         sans: ['var(--font-darker-grotesque)']
       }
     },
