@@ -7,7 +7,7 @@ export default async function Home({ params }: { params: { language: string } })
   const dict = await getDictionary(params.language);
 
   return (
-    <div>
+    <div className="max-w-[1920px] m-auto">
       <HomeProvider dictionary={dict}>
         <Header />
         <BannerSection />
