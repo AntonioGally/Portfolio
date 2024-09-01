@@ -1,6 +1,7 @@
 'use client'
-import { useHomeContext } from "@/app/[language]/home.context";
 import React from "react";
+import Button from "../button/button";
+import { useHomeContext } from "@/app/[language]/home.context";
 
 const TextArea = () => {
     const { dictionary } = useHomeContext();
@@ -26,6 +27,10 @@ const TextArea = () => {
                         {' '}{dictionary.bannerSection.textRows[3]}
                     </span>
                 </span>
+            </div>
+
+            <div className="hidden md:block mt-10">
+                <Button />
             </div>
         </div>
     )
