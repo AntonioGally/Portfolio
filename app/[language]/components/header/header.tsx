@@ -13,7 +13,7 @@ const Header = () => {
             <Image src={logo} alt='Gally logo' />
             <Navbar />
             <div>
-                <LanguageSwitcher />
+                <LanguageSwitcher className="hidden md:flex" />
                 <Toggle />
             </div>
         </div>

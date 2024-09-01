@@ -2,7 +2,9 @@ import React from "react";
 import { useParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 
-const LanguageSwitcher = () => {
+type LanguageSwitcherProps = React.DetailedHTMLProps<React.HTMLAttributes<HTMLDivElement>, HTMLDivElement>;
+
+const LanguageSwitcher = (props: LanguageSwitcherProps) => {
     const params = useParams();
     const router = useRouter();
 
@@ -10,7 +12,7 @@ const LanguageSwitcher = () => {
     const changeLanguage = (language: string) => router.push(`/${language}`);
 
     return (
-        <div className="items-center hidden md:flex">
+        <div className={`items-center ${props.className}`} {...props}>
             <span
                 onClick={() => changeLanguage('pt-br')}
                 className={`${languageTextColor('pt-br')} cursor-pointer mr-3 text-xl`}
@@ -23,7 +25,7 @@ const LanguageSwitcher = () => {
             >
                 en | US
             </span>
-        </div>
+        </div >
     )
 }
 
