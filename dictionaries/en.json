@@ -14,5 +14,19 @@
             "reality"
         ],
         "button": "Explore"
+    },
+    "projectSection": {
+        "nasa": {
+            "title": "Nasa APIs",
+            "description": "🛰️ Nasa APIs - is a platform that aims to use some of the APIs provided by NASA to extract interesting data about the universe."
+        },
+        "todoList": {
+            "title": "Todo List",
+            "description": "Simple todo list app with filters, tags and offline concepts"
+        },
+        "tonyMoedas": {
+            "title": "Tony Moedas",
+            "description": "Crypto app, listing cryptocoins and showing trading charts"
+        }
     }
 }

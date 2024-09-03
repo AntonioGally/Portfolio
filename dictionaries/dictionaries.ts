@@ -11,6 +11,20 @@ export interface DictionaryType {
         jobTitle: string;
         textRows: string[];
         button: string;
+    },
+    projectSection: {
+        nasa: {
+            title: string;
+            description: string;
+        },
+        todoList: {
+            title: string;
+            description: string;
+        }
+        tonyMoedas: {
+            title: string;
+            description: string;
+        }
     }
 }
 

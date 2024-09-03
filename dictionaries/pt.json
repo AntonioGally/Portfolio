@@ -14,5 +14,19 @@
             "inspiram"
         ],
         "button": "Explorar"
+    },
+    "projectSection": {
+        "nasa": {
+            "title": "Nasa APIs",
+            "description": "🛰️ Nasa APIs - é uma plataforma que tem como o objetivo usar algumas das APIs fornecidas pela NASA para extrair dados interessantes sobre o universo."
+        },
+        "todoList": {
+            "title": "Todo List",
+            "description": "Aplicação simples de lista de tarefas com filtros, etiquetas e conceitos offline"
+        },
+        "tonyMoedas": {
+            "title": "Tony Moedas",
+            "description": "Aplicação de criptomoedas, que lista as criptomoedas e apresenta gráficos de negociação"
+        }
     }
 }
