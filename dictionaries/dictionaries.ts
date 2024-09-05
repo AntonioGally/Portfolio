@@ -25,6 +25,18 @@ export interface DictionaryType {
             title: string;
             description: string;
         }
+    },
+    aboutSection: {
+        miniBio: {
+            title: string;
+            description: string;
+        };
+        fullBio: {
+            title: string;
+            description01: string;
+            description02: string;
+            description03: string;
+        }
     }
 }
 

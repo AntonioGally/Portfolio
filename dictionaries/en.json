@@ -28,5 +28,17 @@
             "title": "Tony Moedas",
             "description": "Crypto app, listing cryptocoins and showing trading charts"
         }
+    },
+    "aboutSection": {
+        "miniBio": {
+            "title": "Antonio Gally",
+            "description": "I like cats, women, some men maybe. But what I like most is lying that I like women. I've been a JS programmer my whole life, and today I'm also a prog. I'm a plug."
+        },
+        "fullBio": {
+            "title": "Professional me",
+            "description01": "My background is primarily in startups, so I learn quickly, am dynamic, work well in teams, and can adapt to any stack or area. Throughout my career, I've had a strong focus on frontend development, especially using technologies like React and React Native.",
+            "description02": "I also have skills in backend development; I'm currently studying microservices, authentication, proxies, gateways, among others. I've been exploring DevOps extensively, studying Docker, Kubernetes, GCP, Jenkins, GitHub Actions, and security tools.",
+            "description03": "I frequently develop using component libraries such as Ant Design, Material Design, and Bootstrap. I've learned to conduct technology research and explore technical feasibilities, which has helped me in public speaking engagements and in daily tasks when implementing new features."
+        }
     }
 }

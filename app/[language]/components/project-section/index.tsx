@@ -55,7 +55,3 @@ const ProjectSection = async ({ language }: ProjectSectionProps) => {
 }
 
 export default ProjectSection;
-
-// border: 2px solid;
-// border-image-source: linear-gradient(214.08deg, #0D40F5 13.25%, #57BCCC 49.68%, #28F154 89.31%);
-

@@ -28,5 +28,17 @@
             "title": "Tony Moedas",
             "description": "Aplicação de criptomoedas, que lista as criptomoedas e apresenta gráficos de negociação"
         }
+    },
+    "aboutSection": {
+        "miniBio": {
+            "title": "Antônio Gally",
+            "description": "Eu gosto de gatos, mulheres, talvez alguns homens. Mas o que eu mais gosto é mentir sobre eu gostar de mulher. Eu fui programador JS a minha vida toda, e hoje eu também sou prog. Sou plug"
+        },
+        "fullBio": {
+            "title": "Eu profissional",
+            "description01": "A minha experiência é principalmente em startups, por isso aprendo rapidamente, sou dinâmico, trabalho bem em equipes e consigo adaptar-me a qualquer stack ou área. Ao longo da minha carreira, tive um forte foco no desenvolvimento de front-end, especialmente usando tecnologias como React, React Native e Next.",
+            "description02": "Também tenho habilidades em desenvolvimento backend; atualmente estou estudando microserviços, autenticação, proxies, gateways, entre outros. Tenho explorado bastante o DevOps, estudando Docker, Kubernetes, GCP, Jenkins, GitHub Actions e ferramentas de segurança.",
+            "description03": "Desenvolvo frequentemente utilizando bibliotecas de componentes como Ant Design, Material Design e Bootstrap. Aprendi a fazer investigação tecnológica e a explorar possibilidades técnicas, o que me ajudou em palestras públicas e nas tarefas diárias de implementação de novas funcionalidades."
+        }
     }
 }
