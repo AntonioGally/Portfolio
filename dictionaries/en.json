@@ -40,5 +40,9 @@
             "description02": "I also have skills in backend development; I'm currently studying microservices, authentication, proxies, gateways, among others. I've been exploring DevOps extensively, studying Docker, Kubernetes, GCP, Jenkins, GitHub Actions, and security tools.",
             "description03": "I frequently develop using component libraries such as Ant Design, Material Design, and Bootstrap. I've learned to conduct technology research and explore technical feasibilities, which has helped me in public speaking engagements and in daily tasks when implementing new features."
         }
+    },
+    "footer": {
+        "developed": "Developed by Antonio Gally",
+        "designed": "Designed by Andre Alcantara"
     }
 }

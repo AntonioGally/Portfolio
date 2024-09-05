@@ -37,6 +37,10 @@ export interface DictionaryType {
             description02: string;
             description03: string;
         }
+    },
+    footer: {
+        developed: string;
+        designed: string;
     }
 }
 
