@@ -14,7 +14,7 @@ const AboutSection = async ({ language }: AboutSectionProps) => {
     const dictionary = await getDictionary(language);
 
     return (
-        <div className="px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8 mt-[100px] md:mt-[140px] mb-[200px]">
+        <div id="about" className="px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8 mt-[100px] md:mt-[140px] mb-[200px]">
             <div className="w-full mb-8">
                 <Media />
             </div>

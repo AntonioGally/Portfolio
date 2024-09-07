@@ -22,7 +22,6 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a href="#tech" className={`${getActiveLinkStyles('tech')} text-[#BDBDBD] text-xl`} onClick={() => setActiveLink('tech')}>
-
                         {dictionary.navbar.tech_tendencies}
                     </a>
                 </li>

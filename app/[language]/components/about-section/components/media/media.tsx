@@ -5,7 +5,7 @@ import programming from "@/assets/programming.gif";
 const Media = () => {
     return (
         <div className="rounded-2xl">
-            <Image alt="project gif" src={programming} className="w-full" />
+            <Image unoptimized alt="project gif" src={programming} className="w-full" />
         </div>
     )
 }

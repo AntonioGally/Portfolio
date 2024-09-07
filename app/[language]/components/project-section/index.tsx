@@ -19,7 +19,7 @@ const ProjectSection = async ({ language }: ProjectSectionProps) => {
     const dictionary = await getDictionary(language);
 
     return (
-        <div className="px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8 relative">
+        <div id="projects" className="px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8 relative">
             <BgBlurLarge />
             <div className="w-full mb-8">
                 <ProjectItem

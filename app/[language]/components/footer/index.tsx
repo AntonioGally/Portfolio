@@ -16,7 +16,7 @@ const Footer = async ({ language }: FooterProps) => {
 
     return (
         <footer className="w-[100vw] bg-[#191919]">
-            <div className="w-full max-w-[1440px] flex flex-col items-start space-y-4 md:flex-row md:justify-between md:items-center md:space-y-0 py-6 px-6 sm:px-24 md:px-28">
+            <div className="w-full max-w-[1920px] flex flex-col items-start space-y-4 md:flex-row md:justify-between md:items-center md:space-y-0 py-6 px-6 sm:px-24 md:px-28">
                 <Image src={logo} alt='Gally logo' width={50} />
 
                 <a href="https://www.linkedin.com/in/antonio-gally/" className="text-sm">
