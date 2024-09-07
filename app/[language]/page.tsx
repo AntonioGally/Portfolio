@@ -5,6 +5,7 @@ import BannerSection from "./components/banner-section/banner-section";
 import ProjectSection from "./components/project-section";
 import AboutSection from "./components/about-section";
 import Footer from "./components/footer";
+import ContactSection from "./components/contact-section";
 
 export default async function Home({ params }: { params: { language: string } }) {
   const dict = await getDictionary(params.language);
@@ -16,6 +17,7 @@ export default async function Home({ params }: { params: { language: string } })
         <BannerSection />
         <ProjectSection language={params.language} />
         <AboutSection language={params.language} />
+        <ContactSection language={params.language} />
         <Footer language={params.language} />
       </HomeProvider>
     </div>
