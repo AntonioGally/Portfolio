@@ -38,8 +38,14 @@
             "title": "Professional me",
             "description01": "My background is primarily in startups, so I learn quickly, am dynamic, work well in teams, and can adapt to any stack or area. Throughout my career, I've had a strong focus on frontend development, especially using technologies like React and React Native.",
             "description02": "I also have skills in backend development; I'm currently studying microservices, authentication, proxies, gateways, among others. I've been exploring DevOps extensively, studying Docker, Kubernetes, GCP, Jenkins, GitHub Actions, and security tools.",
-            "description03": "I frequently develop using component libraries such as Ant Design, Material Design, and Bootstrap. I've learned to conduct technology research and explore technical feasibilities, which has helped me in public speaking engagements and in daily tasks when implementing new features."
+            "button": "My Github"
         }
+    },
+    "contactSection": {
+        "title": "Up for a talk?",
+        "email": "Email",
+        "message": "Message",
+        "button": "Send"
     },
     "footer": {
         "developed": "Developed by Antonio Gally",

@@ -9,7 +9,7 @@ import Navbar from "../navbar/navbar";
 const Header = () => {
 
     return (
-        <div className="flex items-center justify-between px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8">
+        <div id="header" className="flex items-center justify-between px-6 py-4 sm:px-24 sm:py-6 md:px-28 md:py-8">
             <Image src={logo} alt='Gally logo' />
             <Navbar />
             <div>

@@ -1,7 +1,9 @@
 'use client'
 
-import React, { createContext, PropsWithChildren, ReactNode, useContext } from "react";
+import React, { createContext, PropsWithChildren, ReactNode, useContext, useEffect } from "react";
 import { DictionaryType } from "../../dictionaries/dictionaries";
+import { analytics } from "../firebaseConfig";
+import { logEvent } from "firebase/analytics";
 
 interface HomeContextTypes {
     dictionary: DictionaryType;
@@ -15,6 +17,13 @@ interface ProviderTypes {
 const homeContext = createContext({} as HomeContextTypes);
 
 const HomeProvider = ({ children, dictionary }: ProviderTypes) => {
+
+    useEffect(() => {
+        if (analytics) {
+            logEvent(analytics, 'page_view', { page_path: window.location.pathname });
+        }
+    }, []);
+
     return (
         <homeContext.Provider value={{ dictionary }}>
             {children}

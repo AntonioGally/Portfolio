@@ -28,7 +28,7 @@ const AboutSection = async ({ language }: AboutSectionProps) => {
                         title={dictionary.aboutSection.fullBio.title}
                         description01={dictionary.aboutSection.fullBio.description01}
                         description02={dictionary.aboutSection.fullBio.description02}
-                        description03={dictionary.aboutSection.fullBio.description03}
+                        button={dictionary.aboutSection.fullBio.button}
                     />
                 </div>
             </div>

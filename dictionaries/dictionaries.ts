@@ -35,8 +35,14 @@ export interface DictionaryType {
             title: string;
             description01: string;
             description02: string;
-            description03: string;
+            button: string;
         }
+    },
+    contactSection: {
+        title: string;
+        email: string;
+        message: string;
+        button: string;
     },
     footer: {
         developed: string;

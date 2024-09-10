@@ -17,14 +17,19 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPXBMX5697"></Script>
+        <Script
+          id="tag-analytics"
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID}`}
+        />
         <Script id="google-analytics">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-
-            gtag('config', 'G-ZPXBMX5697');
+            gtag('config', '${process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID}', {
+              page_path: window.location.pathname,
+            });
           `}
         </Script>
       </head>
