@@ -1,15 +1,21 @@
-  env:
-    - variable: NEXT_PUBLIC_FIREBASE_API_KEY
-      value: firebase-api-key
-    - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
-      value: gally-portfolio.firebaseapp.com
-    - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
-      value: gally-portfolio
-    - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
-      value: gally-portfolio.appspot.com
-    - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
-      value: 846871656154
-    - variable: NEXT_PUBLIC_FIREBASE_APP_ID
-      value: 1:846871656154:web:8786ce6aaa82b0ae1697e3
-    - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
-      value: G-ZPXBMX5697
+runConfig:
+  minInstances: 0
+  maxInstances: 10
+  concurrency: 50
+  cpu: 1
+  memoryMiB: 512
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: firebase-api-key
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: gally-portfolio.firebaseapp.com
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: gally-portfolio
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: gally-portfolio.appspot.com
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: 846871656154
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: 1:846871656154:web:8786ce6aaa82b0ae1697e3
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    value: G-ZPXBMX5697
