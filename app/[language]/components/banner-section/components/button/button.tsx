@@ -7,7 +7,7 @@ const Button = () => {
     const { dictionary } = useHomeContext();
 
     return (
-        <a href="#projects">
+        <a href="#projects" className="block w-fit">
             <button className="rounded-[48px] border-[2px] border-white py-3 px-8 flex items-end hover:opacity-80 transition-opacity">
                 <span className="block mr-[10px] font-bold text-xl">{dictionary.bannerSection.button}</span>
                 <svg width="12" height="18" viewBox="0 0 12 18" fill="none" xmlns="http://www.w3.org/2000/svg">
