@@ -1,0 +1,25 @@
+name: Updating Changelog
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - closed
+jobs:
+  updating-change-log:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          ref: master
+
+      - name: Update Changelog
+        id: action
+        uses: AntonioGally/ag-changelogger/@main
+        with:
+          changelogPath: ./CHANGELOG.md
+          commitUserName: AntonioGally
+          commitEmail: antonio.gally@gmail.com
+          githubToken: ${{ secrets.PORTFOLIO_CHANGELOG }}
+          shouldCreateNewTag: true
