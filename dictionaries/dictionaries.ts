@@ -25,6 +25,10 @@ export interface DictionaryType {
             title: string;
             description: string;
         }
+        starwarsApp: {
+            title: string;
+            description: string;
+        }
     },
     aboutSection: {
         miniBio: {

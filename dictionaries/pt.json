@@ -27,6 +27,10 @@
         "tonyMoedas": {
             "title": "Tony Moedas",
             "description": "Aplicação de criptomoedas, que lista as criptomoedas e apresenta gráficos de negociação"
+        },
+        "starwarsApp": {
+            "title": "Star Wars App",
+            "description": "Aplicação que lista os personagens de Star Wars e apresenta detalhes sobre cada um"
         }
     },
     "aboutSection": {

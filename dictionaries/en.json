@@ -27,6 +27,10 @@
         "tonyMoedas": {
             "title": "Tony Moedas",
             "description": "Crypto app, listing cryptocoins and showing trading charts"
+        },
+        "starwarsApp": {
+            "title": "Star Wars App",
+            "description": "App that lists Star Wars characters and shows details about each one"
         }
     },
     "aboutSection": {
